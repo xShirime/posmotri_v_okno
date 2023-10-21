@@ -18,8 +18,8 @@
 
 ---
 
-https://github.com/xShirime/ono-tebe-nado.git
+https://github.com/xShirime/posmotri_v_okno.git
 
-git@github.com:xShirime/ono-tebe-nado.git
+git@github.com:xShirime/posmotri_v_okno.git
 
 © _Барышников Максим для Яндекс.Практикум_
