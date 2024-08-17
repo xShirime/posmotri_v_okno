@@ -122,10 +122,6 @@ ol {
   outline: none;
 }
 
-.search-form__textfield:focus-visible {
-  outline: 1px solid #fff;
-}
-
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
@@ -170,10 +166,10 @@ ol {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 14px;
-  height: 14px;
+  width: 15px;
+  height: 15px;
   background-color: #fff;
-  margin: 1.5px 1.5px;
+  margin: 1px 1px;
 }
 
 .search-form__submit-button {
@@ -254,11 +250,15 @@ ol {
 }
 
 .content__video-card-title {
+  max-width: 200px;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .content__video-card-description {
